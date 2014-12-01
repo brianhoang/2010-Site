@@ -1,0 +1,360 @@
+/* Body
+_____________________________________*/
+html{
+	background: url(../images/background2.jpg) repeat-x fixed;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 62.5%/1.5 Arial, TimesNewRoman;
+	background: url(../images/backdrop.png) repeat-y center center;
+}
+
+#wrapper{
+	background-color: white;
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+
+
+/* Header
+_____________________________________*/
+
+header{
+	background-color: #314a3c;
+	height: 50px;
+}
+
+header h1{
+	font-size: 2em;
+	float: left;
+	margin: 10px 0 0 15px; 
+	text-decoration: none;
+	letter-spacing: 0.4em;
+}
+
+header h1 a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+header h1 a{
+	color: black;
+}
+
+#banner{
+	height: 200px;
+	background-image: url(../images/banner.jpeg);
+
+}
+
+
+/* Nav
+_____________________________________*/
+
+#nav{
+	list-style-type: none;
+	list-style-position: inside;
+	float: right;
+}
+
+#nav li{
+	float: left;	
+	font-size: 2em;
+}
+
+#nav li a{
+	display: block;
+	padding: 10px;
+	color: black;
+}
+
+#nav li a:hover{
+	background-color: #217237;
+	text-decoration: none;
+	
+}
+
+#nav #active a{
+	background-color: #217237;
+	text-decoration: none;
+	
+	
+}
+
+/* Content
+_____________________________________*/
+
+.content{
+	padding: 10px;
+	
+}
+
+#slides{
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	margin: 30px auto;
+
+}
+
+
+#left{
+	float: left;
+	width: 600px;
+	background-color: white;
+}
+
+#left p{
+	margin: 0 0 15px 0;	 
+}
+
+#left .date{
+	background-color: red;
+
+}
+
+#right{
+	margin: 0 0 0 10px;
+	float: left;
+	width: 330px;
+	}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+	background-color: #ccc;
+	font-size: 1.5em;
+
+}
+
+thead{
+	margin: 0;
+}
+
+thead th{
+	padding: 5px;
+}
+
+#label{
+	background-color: #ccc;
+}
+
+tbody{
+	background-color: #fff;
+}
+
+.odd{
+	background-color: #ccc;
+}
+
+tbody tr:hover{
+	background-color: #444;
+}
+
+tbody td{
+	padding: 10px;
+}
+
+
+#graph{
+margin: 15px 0 7px 0 ;
+
+}
+
+#graph img:hover{
+	
+
+}
+
+#ranf{
+margin-top: 15px;
+}
+
+#facts{
+	margin: 0 10px 0 10px;
+	background-color: red;
+}
+
+#right a img{
+	margin-left: 40px;	
+}
+
+
+#middle{
+	padding:20px 0 20px 0;
+	float: left;
+	width: 940px;
+	background-color: white;
+}
+
+#aboutmiddle img{
+	
+	margin: 15px 0 15px 250px;
+	
+}
+
+#aboutmiddle p{
+	 
+	background-color: lime;
+	
+}
+
+.click{
+	padding-top: 15px;
+}
+
+.click li a {
+	background-color: white;
+}
+.click li{
+	list-style-type: none;
+	list-style-position: inside;
+	display: inline;
+	background-color: #304a3b;
+	font-size: 1.5em;
+	color: white;
+	
+}
+
+#a{
+	padding: 0 80px;
+	margin-left: 70px;
+}
+
+#bi{
+	padding: 0 105px;
+	margin-left: 50px;
+}
+
+#bu{
+	padding: 0 110px;
+	margin-left: 40px;
+}
+
+#f{
+	padding: 0 110px;
+	margin-left: 65px;
+}
+
+#m{
+	padding: 0 90px;
+	margin-left: 45px;
+
+}
+
+#r{
+	padding: 0 100px;
+	margin-left: 40px;
+}
+
+.click img{
+	border: 2px solid black;
+	margin-left: 88px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.click a img:hover{
+	border: 2px solid lime;	
+	
+}
+
+#gallery ul{
+
+	list-style-type:  none;		
+}
+
+#gallery ul li{
+	display: inline;
+}
+
+#gallery img{
+	border: 2px solid green;
+	margin: 10px;
+}
+
+#gallery ul li a img:hover{
+	border-color: lime;	
+}	
+
+#listbirds li{
+	list-style-position: inside;	
+}
+/* Footer
+_____________________________________*/
+
+footer{
+	background-color: #314a3c;
+	
+}
+
+
+footer p{
+	font-size: 1.4em;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	
+}
+
+
+
+
+
+/* Text and Links
+_____________________________________*/
+
+p{
+	color: black;
+	font-size: 1.5em;
+}
+
+
+h2{
+	font-size: 1.6em;
+	margin: 0 0 10px 0;
+	background-color: #314a3c;
+	text-indent: 10px;
+	color: white;
+	padding: 5px 0;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+h3{
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+
+
+a{
+	color: navy;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color: lime;
+	text-decoration: underline;
+	
+}
+
+
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+.MagnifImage{background-color:#fff; color:#00f; font-weight:bold; border:4px outset #ccc;
+text-align:center; padding:0;margin:0; }
